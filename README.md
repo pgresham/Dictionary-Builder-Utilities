@@ -7,7 +7,7 @@
 
 These utilities use **Python 3.x** and are written for Linux systems. See note below for Windows usage.
 
-# For converter.py
+### For converter.py
 
 The Following packages must be installed in prior to use (or run the included shell script)
 
@@ -28,7 +28,7 @@ There may be others. feel free to let me know if you try it. The code is pretty 
 
 ## Usage
 
-# For converter.py
+### For converter.py
 
 - **python3 converter.py**
 
