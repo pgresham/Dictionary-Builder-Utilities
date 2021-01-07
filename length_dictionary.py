@@ -12,6 +12,8 @@ try:
             c = 2
         elif str(sys.argv[4]) == 'lower':
             c = 1
+        elif str(sys.argv[4]) == 'pass':
+            c = 0
         else:
             c = 0
     except:
@@ -24,7 +26,7 @@ try:
     except:
         n = 0
 except:
-    print('length_dictionary.py [input file] [word length] [output file] {lower|upper} {nonames}')
+    print('length_dictionary.py [input file] [word length] [output file] [lower|upper|pass] {nonames}')
     exit()   
 if c == 0:
     if n == 1:
