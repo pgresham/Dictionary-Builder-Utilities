@@ -22,6 +22,10 @@ def clear():
 
 There may be others. feel free to let me know if you try it. The code is pretty thoroughly commented out for ease of use.
 
+### For length_dictionary.py
+
+- **sys** should already be installed
+
 ## Usage
 
 ### For converter.py
@@ -29,3 +33,9 @@ There may be others. feel free to let me know if you try it. The code is pretty 
 - **python3 converter.py**
 
 - **follow the prompts from there**
+
+### For length_dictionary.py
+
+python3 **length_dictionary.py** [input file] [word length] [output file] {lower|upper} {nonames}
+
+- input file
