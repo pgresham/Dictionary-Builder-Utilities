@@ -1,15 +1,13 @@
 # Dictionary-Builder-Utilities
 ## Converter for making .txt dictionaries from .dic files and manipulation utilities
 
----
-
 ## Required Packages:
 
 These utilities use **Python 3.x** and are written for Linux systems. See note below for Windows usage.
 
 ### For converter.py
 
-The Following packages must be installed in prior to use (or run the included shell script)
+The Following packages must be installed in prior to use
 
 - **termcolor**
 
@@ -23,8 +21,6 @@ def clear():
   os.system('cls')
 
 There may be others. feel free to let me know if you try it. The code is pretty thoroughly commented out for ease of use.
-
----
 
 ## Usage
 
