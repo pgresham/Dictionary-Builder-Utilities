@@ -36,6 +36,9 @@ There may be others. feel free to let me know if you try it. The code is pretty 
 
 ### For length_dictionary.py
 
-python3 **length_dictionary.py** [input file] [word length] [output file] {lower|upper} {nonames}
-
-- input file
+python3 **length_dictionary.py** [input file] [word length] [output file] [lower|upper|pass] {nonames}
+- **input file** specifies the dictionary text file containing one 'word' per line
+- **word length** is the length of words to be selected
+- **output file** specifies the filename to be written
+- **upper/lower** entering 'upper' or 'lower' forces upper- or lowercase for the output, 'pass' bypasses this function
+- **nonames** typing 'nonames' optionally removes entries containing any uppercase characters from the output. Omit to bypass.
